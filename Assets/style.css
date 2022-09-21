@@ -1,0 +1,68 @@
+/*setting variables*/
+:root{
+--red: red;
+--lightblue: lightblue;
+--darkblue: darkblue;
+--darkgrey: darkgrey;
+}
+
+body{
+    font-family: "Fire sans", sans-serif;
+    font-weight: 400;
+    background-color: darkgray;
+    color: darkblue;
+}
+
+
+h1,
+h1,
+h3,
+h4,
+h5,
+h6{
+    font-weight: var(--red);
+    color: lightblue;
+}
+
+thead{
+    background-color: var(--red);
+    color: lightblue;
+    font-weight: 700;
+}
+
+.recipient-name {
+    cursor: pointer;
+}
+.custom-jumbotron,
+.custom-card .card-header,
+.custom-card .card-footer,
+.custom-modal .modal-header,
+.custom-modal .modal-footer{
+    background-color: darkblue;
+    color: darkgray;
+}
+
+.custom-card .card-body,
+.cuustom-modal .modal-body {
+    background-color: darkgray;
+    color: darkblue;
+}
+
+.custom-btn {
+    background: darkgray;
+    color: darkblue;
+}
+
+.custom-btn:hover{
+    background-color: lightblue;
+    color: darkblue;
+}
+
+.custom-table tbody{
+    background-color: darkgrey;
+    color: lightblue;
+}
+
+.delete-project-btn{
+    cursor: pointer;
+}
