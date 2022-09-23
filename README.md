@@ -36,7 +36,7 @@ This project is divided into four tasks.
     * Estimated total earned (hourly wage at 8 hours per day multiplied by the number of days until the due date)
 
 
----
+
 
 ### Task 2: Capturing Form Data
 
