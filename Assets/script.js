@@ -78,6 +78,7 @@ function handleProjectFormSubmit(event) {
   var dueDate = dueDateInputEl.val().trim();
 
   printProjectData(projectName, projectType, hourlyRate, dueDate);
+  
 
   projectFormEl[0].reset();
 }
